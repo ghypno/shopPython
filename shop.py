@@ -252,7 +252,7 @@ class LoginRussia:
                         time.sleep(0.3)
                         self.clientemail = input('ВВЕДИТЕ G-MAIL ОТ ВАШЕГО АККАУНТА: ')
                         time.sleep(0.3)
-                        self.password = 'uwgmqaktiwlygwua'
+                        self.password = 'password'
                         self.email = 'axcideo@gmail.com'
 
                def reset_rus(self):
@@ -294,7 +294,7 @@ class RegisterRussia:
                 return menu_ru()
             self.passwordclient = input(f'[СИСТЕМА] > ВВЕДИТЕ ПАРОЛЬ ДЛЯ АККАУНТА {self.username},:  ')
             self.clientemail = input(f'[СИСТЕМА] >ВВЕДИТЕ ПОЧТУ G-MAIL ДЛЯ АККАУНТА {self.username}: ')
-            self.password = 'uwgmqaktiwlygwua'
+            self.password = 'password'
             self.email = 'axcideo@gmail.com'
             break
 
